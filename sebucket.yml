@@ -1,0 +1,10 @@
+Resources:
+  S3BucketExample:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: priyankapipelinebucket
+      PublicAccessBlockConfiguration:
+        BlockPublicAcls: false
+        BlockPublicPolicy: false
+        IgnorePublicAcls: false
+        RestrictPublicBuckets: false
