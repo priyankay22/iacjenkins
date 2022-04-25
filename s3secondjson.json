@@ -5,13 +5,13 @@
                 "Type": "AWS::S3::Bucket",
                 "Properties": {
                     "BucketName": "priyankapipelinebucket1",
-                    "AccessControl" : "PublicRead",
+                    "AccessControl" : "Private",
                     "PublicAccessBlockConfiguration":
                     {
-                                "BlockPublicAcls" : "False",
-                                 "BlockPublicPolicy" : "False",
-                                 "IgnorePublicAcls" : "False",
-                                 "RestrictPublicBuckets" : "False"
+                                "BlockPublicAcls" : "True",
+                                 "BlockPublicPolicy" : "True",
+                                 "IgnorePublicAcls" : "True",
+                                 "RestrictPublicBuckets" : "True"
     }
     
                     
